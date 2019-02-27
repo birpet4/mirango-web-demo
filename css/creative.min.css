@@ -16,7 +16,14 @@
      width: 100%;
      text-align: center
  }
- 
+
+ header .header-content .header-content-inner {
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+#homeHeading{
+    padding: 30px;
+}
  body,
  html {
      height: 100%;
@@ -41,13 +48,16 @@
  }
  
  hr {
-     border-color: rgb(51, 147, 202);
-     border-width: 3px;
-     max-width: 50px
+     border: none;
+     color: rgb(51, 147, 202);
+     height: 2px;
+     width: 150px;
+     background-color: rgb(51, 147, 202);
+   
  }
  
  hr.light {
-     border-color: #fff
+    background-color: #fff
  }
  
  a {
@@ -70,11 +80,18 @@
      background-color: rgb(51, 147, 202);
  }
  
+ .bg-secondary {
+    background-color: rgb(255,255,255);
+}
+
+
  .bg-dark {
      background-color: #222;
      color: #fff
  }
  
+
+
  .text-faded {
      color: rgba(255, 255, 255, .7)
  }
@@ -116,7 +133,7 @@
  
  .navbar-default .navbar-header .navbar-toggle {
      font-weight: 700;
-     font-size: 12px;
+     font-size: 20px;
      color: #222;
      text-transform: uppercase
  }
@@ -258,6 +275,12 @@
      max-width: 400px;
      margin: 50px auto 0
  }
+
+ #services{
+     background-image: url("../../images/szolg2.jpg");
+     background-size: cover;
+     padding: 50px;
+ }
  
  @media (min-width:992px) {
      .service-box {
@@ -272,8 +295,9 @@
  .portfolio-box {
      position: relative;
      display: block;
-     max-width: 650px;
-     margin: 0 auto
+     max-width: 300px;
+     margin: 0 auto;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
  
  .portfolio-box .portfolio-box-caption {
@@ -298,6 +322,40 @@
      background-image: none
  }
  
+#inner-hover,
+#inner-hover2,
+#inner-hover3,
+#inner-hover4,
+#inner-hover5,
+#inner-hover6,
+#inner-hover7,
+#inner-hover8 {
+  width: 20em;
+  height: 20em;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+
+.portfolio-img{
+    width: 20em;
+    height: 10em;
+}
+
+#hover-container,
+#hover-container2,
+#hover-container3,
+#hover-container4,
+#hover-container5,
+#hover-container6,
+#hover-container7,
+#hover-container8 {
+    perspective: 300px;
+}
+
  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
      width: 100%;
      text-align: center;
@@ -405,6 +463,16 @@
      -moz-transition: all .35s;
      transition: all .35s
  }
+
+ .btn-secondary {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 30px
+ }
  
  .btn-primary.active,
  .btn-primary.focus,
@@ -413,8 +481,8 @@
  .btn-primary:hover,
  .open>.dropdown-toggle.btn-primary {
      color: #fff;
-     background-color: #ee4b28;
-     border-color: #ed431f
+     background-color: rgb(24, 86, 122);
+     border-color: rgb(51, 147, 202);
  }
  
  .btn-primary.disabled,
@@ -440,19 +508,19 @@
  }
  
  .btn-primary .badge {
-     color: #F05F40;
+     color: rgb(94, 188, 251);
      background-color: #fff
  }
  
  .btn {
+     margin: 30px;
      border: none;
-     border-radius: 300px;
      font-weight: 700;
      text-transform: uppercase
  }
  
  .btn-xl {
-     padding: 15px 30px
+     padding: 10px 25px
  }
  
  ::-moz-selection {
@@ -476,3 +544,59 @@
      color: #fff;
      background: 0 0
  }
+
+ li img{
+     width: auto;
+     height: auto;
+     max-width: 30px;
+     max-height: 30px;
+     padding-top: 17px;
+     padding-left:  4px;
+     padding-right: 8px;
+ }
+ .navbar-default a img {
+    width: auto;
+    height: auto;
+    max-width: 160px;
+    max-height: 140px;
+ }
+
+#about {
+    padding-top: 40px;
+}
+
+ #about img {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    padding-bottom: 20px;
+ }
+
+#about h3 {
+    color: black;
+}
+
+#paragraph {
+    padding-top: 40px;
+}
+
+.reference-p {
+    margin-top:10px;
+    margin-left:22px;
+    margin-right: 0px;
+    text-align:left
+}
+
+form {
+    width: 25vw;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-text {
+    text-size-adjust: 20;
+}
