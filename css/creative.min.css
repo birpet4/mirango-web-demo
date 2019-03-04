@@ -3632,7 +3632,7 @@ fieldset:disabled a.btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #f4623a
+    background-color: #3a9af4
 }
 
 .nav-fill .nav-item {
@@ -9759,6 +9759,14 @@ hr.light {
 
 .page-section {
     padding: 8rem 0
+}
+
+#header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(214, 214, 214)!important;
+}
+#navbarResponsive {
+    color: rgb(214, 214, 214)
 }
 
 #mainNav {
