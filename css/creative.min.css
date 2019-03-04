@@ -10026,3 +10026,16 @@ footer {
 footer a {
     color: rgb(51, 147, 202)!important;
 }
+
+.span4 img {
+    margin-right: 10px;
+
+    width: 30%;
+    height: 70%;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
