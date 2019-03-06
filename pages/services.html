@@ -30,14 +30,14 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light py-3" id="header">
+  <nav class="navbar navbar-expand-lg navbar-light py-3" style="background-color:black!important; color: white" id="mainNav">
     <a class="navbar-brand" href="../index.html"><img src="../../images/logo.png"/></a>
 
     <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0" id="header">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Szolgáltatások</a>
+            <a class="nav-link js-scroll-trigger"  href="#about">Szolgáltatások</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">Referenciák</a>
@@ -51,7 +51,7 @@
         </ul>
       </div>
         <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap" style="padding:0ő">
-            <li class="nav-item"><a class="nav-link" href=""><i class="fab fa-linkedin"></i></a> </li>
+            <li class="nav-item"><a style="padding-right:2px" class="nav-link" href=""><i class="fab fa-linkedin"></i></a> </li>
             <li class="nav-item"><a class="nav-link" href=""><i class="fas fa-envelope"></i></a> </li>
         </ul>
     </div>
@@ -65,62 +65,61 @@
         <br/>        
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center" id="service">
-            <a href="#" onclick="getSoftwareDevelopment()">Egyedi szoftverfejlesztés</a>
+            <a href="#" onclick="getSoftwareDevelopment()" id="custom-software-development">Egyedi szoftverfejlesztés</a>
+            <hr align="left" style="border-color:rgb(51, 147, 202);">
           </div>
           <div class="col-lg-3 col-md-6 text-center" id="service">
             <a href="#" onclick="getStartupHelp()">Startup támogatás</a>
+            <hr align="left" style="border-color:rgb(51, 147, 202);">
           </div>
           <div class="col-lg-3 col-md-6 text-center" id="service">
             <a href="#" onclick="getOutSourcing()">Kiszervezett feladatkörök</a>
+            <hr align="left" style="border-color:rgb(51, 147, 202);">
           </div>
           <div class="col-lg-3 col-md-6 text-center" id="service"> 
             <a href="#" onclick="getItHelp()">IT tanácsadás</a>
+            <hr style="border-color:rgb(51, 147, 202);">
           </div>
         </div>
-        <div class="container" id="show-services">
-          <div class="row">
+        <div class="container">
+          <div class="row" id="services-variant">
             <div class="col-lg-6 text-left" style="padding:30px;">
-              <div class="row">
+              <div class="row" id="show-services">
                   <div class="span4">
-                      <img class="img-left" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg"/>
-
-                      <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                      <img class="img-left" src="../../images/services-1.png"/>
+                      <p>IT projektek vezetését, menedzselését. A lor asdf o asdofk oasdkfop </p>
+                    </div>
+              </div>
+              <div class="row" id="show-services">
+                  <div class="span4">
+                      <img class="img-left" src="../../images/services-1.png"/>
+                  
+                      <p>Segítünk partnereinknek abban, hogy képesek legyenek reálisan felmérni az előttük álló feladatok nagyságá</p>
 
                     </div>
               </div>
-              <div class="row">
+              <div class="row" id="show-services">
                   <div class="span4">
-                      <img class="img-left" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg"/>
-
-                      <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                      <img class="img-left" src="../../images/services-1.png"/>
+            
+                      <p>megvalósításuk munkaigényét és elkészítési határidejét, valamint az üzemeltetéshez szükséges erőforrások nagyságát.</p>
 
                     </div>
               </div>
-              <div class="row">
-                  <div class="span4">
-                      <img class="img-left" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg"/>
 
-                      <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-                    </div>
-              </div>
-              <div class="row">
-                  <div class="span4">
-                      <img class="img-left" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg"/>
-
-                      <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-                    </div>
-              </div>
             </div>
-            <div class="col-lg-6 text-left" style="padding:10px;">
-              segítünk a megfelelő informatikai megoldás megtalálásában! Felkaroljuk a kisvállalkozások és startup cégek ötleteit, és együttműködünk elképzeléseik informatikai hátterének biztosításában. Segítünk felmérni és megfogalmazni informatikai problémáikat, teljes körű kivitelezést biztosítunk a specifikáció elkészítésétől a megvalósult szoftver átadásáig. Vállaljuk a felhasználók és üzemeltetők betanítását, illetve igény esetén magunk végezzük az elkészült rendszerek üzemeltetését és karbantartását.
+            <div class="col-lg-6 text-left service-left">
+              <h3>Feladatok kiszervezése</h3>
+              <hr align="left" style="border-color:rgb(51, 147, 202);width: 70%;">
+              <br />
+              <span>zakértőink segítenek adat feldolgozó- és üzleti intelligencia rendszerek kiépítésében. Megtervezzük és megvalósítjuk a különféle forrásokból származó adatok összegyűjtését, rendezését, átalakítását és betöltését a megfelelő típusú adatkezelő rendszerekbe, és közérthető, világos jelentéseket készítünk a vállalati döntéshozók számára. Vállaljuk olyan architektúrák, folyamatok megtervezét és kialakítását, melyek lehetővé teszik, hogy
 
-                A legfrissebb technológiág mind: 
-                A vállalati információs rendszerek,
-                önálló desktop alkalmazások,
-                backend és frontend rendszerek
-                webes és mobil alkalmazások fejlesztése
+                  begyűjtsük a folyamatosan keletkező, nagy mennyiségű adatot különféle heterogén forrásokból;
+                  tisztítást és előfeldologozást végezzünk rajtuk, annak érdekében, hogy tömörebb, konzisztensebb formát nyerjenek;
+                  különféle transzformációk elvégzése után relációs, multidimenzionális, vagy a feladathoz legjobban illeszkedő adatbázisba töltsük az előfeldolgozott adatokat;
+                  az összegyűjtött adatokon statisztikai és adatbányászati elemzéseket végezzünk;
+                  majd végül táblázatokkal, grafikonokkal és speciális több dimenziós ábrázolási módokkal ellátott egyedi vagy rendszeres jelentéseket készítsünk belőlük.
+                  Az akadémiai hátterünknek köszönhetően egyedi, nagy bonyolultságú, kutatási tevékenységet is magában foglaló megoldásokat is készítünk az ügyfeleink számára. Nem habozunk használni a matematika vagy az algoritmuselmélet eszköztárát annak érdekében, hogy a futtatási környezethez és a megoldandó problémához megtaláljuk a minden szempontból optimálisan illeszkedő megoldásokat.
             </div>
           </div>
         </div>
