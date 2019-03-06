@@ -6138,7 +6138,8 @@ button.bg-light:hover {
 }
 
 .bg-dark {
-    background-color: #343a40!important
+    background-color: #343a40!important;
+
 }
 
 a.bg-dark:focus,
@@ -10016,7 +10017,7 @@ nav a img {
 .bg-dark {
     background-color: #222;
     color: #fff;
-    height: 200px;
+    height: 150px;
     width: 100%;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -10128,4 +10129,29 @@ footer a {
 
 #service a {
     font-size: 17px;
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative;padding-top: 100px; }
+
+.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+
+.MultiCarousel .MultiCarousel-inner .item { float: left;}
+
+.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+
+.MultiCarousel .leftLst { left:0; color:black; margin-top: 50px; }
+
+.MultiCarousel .rightLst { right:0;color:black; margin-top: 50px; }
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+#technology-icon {
+    height: 15vh;
+    width: 7vw;
+}
+
+#contact {
+    margin-top: 550px;
 }
