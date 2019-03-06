@@ -9735,7 +9735,7 @@ html {
 }
 
 hr.divider {
-    max-width: 3.25rem;
+    max-width: 20rem;
     border-width: .2rem;
     border-color: rgb(51, 147, 202);
 }
@@ -9846,11 +9846,21 @@ header.masthead {
     padding-bottom: calc(10rem - 72px);
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.089)), to(rgba(92, 77, 66, .8))), url(../../images/bg2.jpg);
     background: linear-gradient(to bottom, rgba(57, 57, 58, 0) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/bg2.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110% 110%;
     background-attachment: fixed;
+    animation: shrink 5s infinite alternate;
 }
+
+@keyframes shrink {
+    0% {
+      background-size: 110% 110%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
 
 header.masthead h1 {
     font-size: 2.25rem
