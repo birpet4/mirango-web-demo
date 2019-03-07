@@ -178,13 +178,13 @@ sup {
 }
 
 a {
-    color: #2375d3;
+    color: #000000;
     text-decoration: none;
     background-color: transparent
 }
 
 a:hover {
-    color: #d6370c;
+    color: #2069ad;
     text-decoration: underline
 }
 
@@ -5750,7 +5750,7 @@ a.close.disabled {
 }
 
 .carousel {
-    position: relative
+    position: relative;
 }
 
 .carousel.pointer-event {
@@ -5856,7 +5856,7 @@ a.close.disabled {
     -ms-flex-pack: center;
     justify-content: center;
     width: 15%;
-    color: #fff;
+    color: rgb(48, 131, 199);
     text-align: center;
     opacity: .5;
     -webkit-transition: opacity .15s ease;
@@ -5875,7 +5875,7 @@ a.close.disabled {
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     outline: 0;
     opacity: .9
@@ -5963,7 +5963,7 @@ a.close.disabled {
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center
 }
 
@@ -9989,6 +9989,7 @@ nav a img {
   -webkit-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
   -o-transition: transform 0.5s;
+  cursor: pointer;
 }
 
 .portfolio-img{
@@ -10177,4 +10178,30 @@ footer a {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(72, 185, 238, 0.267)), to(rgba(92, 77, 66, .8))), url(../../images/Startup-office-898x505.jpg);
     background: linear-gradient(to bottom, rgba(72, 185, 238, 0.267) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/Startup-office-898x505.jpg);
     background-position: center ;
+}
+
+#portfolio-header {
+    padding-top: 60px;
+    background: url(../../images/dexus-office-space.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolio-detailed-image {
+
+    max-width: 500px;
+    height: 300px;
+
+    vertical-align: center;
+
+}
+
+.low8-logo {
+    max-width: 70px;
+}
+
+#portfolio-container {
+    height:max-content;
 }
