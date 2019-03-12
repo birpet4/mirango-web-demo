@@ -75,7 +75,7 @@ body {
     margin: 0;
     font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
     color: #212529;
     text-align: left;
@@ -5775,6 +5775,7 @@ a.close.disabled {
     display: none;
     float: left;
     width: 100%;
+    height: 450px;
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -5898,11 +5899,11 @@ a.close.disabled {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
 }
 
 .carousel-indicators {
@@ -10064,7 +10065,8 @@ footer a {
 }
 
 #services-detailed {
-    background-image: url(../../images/Business-Continuity-Office-Background-White.jpg);
+    /* background-image: url(../../images/Business-Continuity-Office-Background-White.jpg); */
+    background-color: white;
     background-position: center;
     background-size: cover;
 
@@ -10131,7 +10133,8 @@ footer a {
 }
 
 #service a {
-    font-size: 20px;
+    color:white;
+    font-size: large;
     text-transform: uppercase;
     font-style: bold;
 }
@@ -10164,12 +10167,14 @@ footer a {
 #about-detailed {
     background: url(../../images/dexus-office-space.jpg);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
 }
 
 #about-detailed img {
-    height: 50%;
-    width: 70%;
+    /* height: 50%; */
+    /* width: 70%; */
 }
 
 #grounded {
@@ -10180,9 +10185,35 @@ footer a {
     background-position: center ;
 }
 
+.about-body {
+    font-size: large;
+}
+#about-header,
 #portfolio-header {
     padding-top: 60px;
-    background: url(../../images/dexus-office-space.jpg);
+
+}
+
+#about-header {
+    background: url(../../images/ian-black-team-9-17.jpg);
+    background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/ian-black-team-9-17.jpg);
+    height: 400px;
+    background-position: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about-body img {
+    width: 100%;
+    height: 100%;
+}
+
+#about-paralex-1 {
+    background-image: url(../../images/Business-Continuity-Office-Background-White.jpg);
+    min-height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -10203,5 +10234,49 @@ footer a {
 }
 
 #portfolio-container {
-    height:max-content;
+    /* height:max-content; */
+    height: 700px;
 }
+
+#carouselExampleFade {
+    background-color: white;
+}
+
+#portfolio-paralax{
+    background-image: url(../../images/bg.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#about-text {
+    min-height: 400px;
+}
+
+#about-competence img {
+    width: 20px;
+    height: auto;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #4794db;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #00aeff;
+}
+
+
+
