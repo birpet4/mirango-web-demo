@@ -10089,8 +10089,10 @@ footer a {
 }
 
 #show-services {
+
+    font-size: 1rem;
     margin-bottom: 30px;
-    height:100px;
+    height:110px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     background-size: cover;
