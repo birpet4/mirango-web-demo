@@ -26,7 +26,7 @@
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #f4623a;
+    --primary: #1e83c7;
     --secondary: #6c757d;
     --success: #28a745;
     --info: #17a2b8;
@@ -2744,7 +2744,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: rgb(51, 147, 202);
+    background-color: #3393ca;
     border-color: rgb(51, 147, 202);
 }
 
@@ -5899,11 +5899,11 @@ a.close.disabled {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233393ca' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e")
 }
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233393ca' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e")
 }
 
 .carousel-indicators {
@@ -9850,14 +9850,14 @@ header.masthead {
     background: linear-gradient(to bottom, rgba(57, 57, 58, 0) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/bg2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 110% 110%;
+    background-size: 105% 1050%;
     background-attachment: fixed;
-    animation: shrink 5s infinite alternate;
+    animation: shrink 10s infinite alternate;
 }
 
 @keyframes shrink {
     0% {
-      background-size: 110% 110%;
+      background-size: 105% 105%;
     }
     100% {
       background-size: 100% 100%;
@@ -9919,7 +9919,7 @@ header.masthead h1 {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(244, 98, 58, .9);
+    background: rgba(26, 157, 190, 0.9);
     -webkit-transition: opacity .25s ease;
     transition: opacity .25s ease;
     text-align: center
@@ -10006,7 +10006,7 @@ nav a img {
 #hover-container6,
 #hover-container7,
 #hover-container8 {
-    perspective: 300px;
+    perspective: 1000px;
 }
 
 .reference-p {
@@ -10037,7 +10037,7 @@ footer {
     margin-top: 0px;
 }
 footer a {
-    color: rgb(51, 147, 202)!important;
+    color: #3393ca!important;
 }
 
 .span4 {
@@ -10139,21 +10139,60 @@ footer a {
     font-style: bold;
 }
 
-.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative;padding-top: 100px; }
+.MultiCarousel { 
+    float: left; 
+    overflow: hidden; 
+    padding: 15px; 
+    width: 100%; 
+    position:relative;
+    padding-top: 100px; 
+}
 
-.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+.MultiCarousel .MultiCarousel-inner { 
+    transition: 1s ease all; 
+    float: left; }
 
-.MultiCarousel .MultiCarousel-inner .item { float: left;}
+.MultiCarousel .MultiCarousel-inner .item { 
+    float: left;}
 
-.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+.MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; 
+    padding:10px; 
+    margin:10px; 
+    background:#f1f1f1; 
+    color:rgba(102, 102, 102, 0)(102, 102, 102, 0);}
 
-.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+    position:absolute; 
+    border-radius:0;
+    top:calc(50% - 20px); 
+    
+}
 
-.MultiCarousel .leftLst { left:0; color:black; margin-top: 50px; }
+.MultiCarousel .leftLst { 
+    left:0; 
+    margin-top: 50px; 
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
 
-.MultiCarousel .rightLst { right:0;color:black; margin-top: 50px; }
+.MultiCarousel .rightLst { 
+    right:0;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233393ca' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
 
-.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+}
+.rightLst:hover,
+.leftLst:hover {
+    cursor:pointer;
+}
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+    pointer-events: none; 
+    cursor: pointer;
+    background:rgba(204, 204, 204, 0); 
+}
 
 #technology-icon {
     height: 15vh;
@@ -10190,7 +10229,7 @@ footer a {
 }
 #about-header,
 #portfolio-header {
-    padding-top: 60px;
+    /* padding-top: 60px; */
 
 }
 
@@ -10205,6 +10244,17 @@ footer a {
     background-size: cover;
 
 }
+
+#portfolio-header {
+    background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/business-presentation-abstract-background-with-partners-shaking-hands_nv_snfd5l__F0000.png);
+    height: 400px;
+    background-position: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .about-body img {
     width: 100%;
@@ -10277,6 +10327,52 @@ footer a {
     margin: 10px;
     background-color: #00aeff;
 }
+
+#service-header{
+    background: url(../../images/budapest-at-night-1566316_960_720.jpg);
+    background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/office_1.jpg);
+    height: 400px;
+    background-position: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#main-title1 {
+    visibility: hidden;
+    overflow: hidden;
+    animation: 
+        typing 3.5s steps(30, end) forwards;
+    white-space: nowrap; 
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+}
+
+#main-title2 {
+    visibility: hidden;
+    overflow: hidden;
+    animation: 
+        typing 3.5s steps(30, end) forwards;
+    animation-delay: 3.5s;
+    white-space: nowrap; 
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { 
+        visibility: visible;
+        width: 0 
+    }
+    to { 
+        visibility: visible;
+        width: 100% 
+    }
+  }
+  
+/* The typewriter cursor effect */
+
 
 
 
