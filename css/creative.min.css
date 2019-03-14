@@ -10041,20 +10041,18 @@ footer a {
 }
 
 .span4 {
-    padding: 0px;
+    padding-top: 10px;
+    padding-right: 0px;
 }
 
 .span4 img {
     margin-right: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     width: auto;
-    height: 40%;
-    
-    transition: 0.3s ease;
+    height: 20%;
+    border-radius: 10px;
 
-}
-.span4 img:hover {
-    transform: scale(1.05,1.05);
 }
 
 .span4 .img-left {
@@ -10065,8 +10063,8 @@ footer a {
 }
 
 #services-detailed {
-    /* background-image: url(../../images/Business-Continuity-Office-Background-White.jpg); */
-    background-color: white;
+    background-image: url(../../images/OFFICE-02.jpg);
+    /* background-color: white; */
     background-position: center;
     background-size: cover;
 
@@ -10091,9 +10089,15 @@ footer a {
 }
 
 #show-services {
-    height:10%;
     margin-bottom: 30px;
-    
+    height:100px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease;
+    border-radius: 20px;
 
 }
     
@@ -10106,12 +10110,11 @@ footer a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.3s ease;
     margin-top: 30px;
-}
-.service-left:hover {
-    transform: scale(1.05,1.05);
+    border-radius: 20px;
 }
 
-#custom-software-development {
+
+#custom-software-development-link {
     display: inline-block;
     cursor:pointer;
     color:black;
@@ -10372,7 +10375,4 @@ footer a {
   }
   
 /* The typewriter cursor effect */
-
-
-
 

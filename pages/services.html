@@ -21,13 +21,15 @@
 
   <!-- Plugin CSS -->
   <link href="../vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="../css/creative.min.css" rel="stylesheet">
-
+  <link href="../css/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
 </head>
 
-<body id="page-top">
+<body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light  py-3" style="background-color:black!important; color: white" id="mainNav">
@@ -70,64 +72,134 @@
         <div class="container"  style="padding: 60px">
           <div class="row">
             <div class="col-lg-3 col-md-6 text-center" id="service" >
-              <a href="#" onclick="getSoftwareDevelopment()" id="custom-software-development">Szoftverfejlesztés egyedi igényeknek megfelelően</a>
+              <a href="#services-variant" id="custom-software-development-link">Szoftverfejlesztés egyedi igényeknek megfelelően</a>
             </div>
             <div class="col-lg-3 col-md-6 text-center" id="service">
-              <a href="#" onclick="getStartupHelp()">Startupoknak támogatása</a>
+              <a href="#services-variant" id="startup-support-link">Startupoknak támogatása</a>
             </div>
             <div class="col-lg-3 col-md-6 text-center" id="service">
-              <a href="#" onclick="getOutSourcing()">Feladatkörök kiszervezése</a>
+              <a href="#services-variant" id="outsourcing-link">Feladatkörök kiszervezése</a>
             </div>
             <div class="col-lg-3 col-md-6 text-center" id="service"> 
-              <a href="#" onclick="getItHelp()">IT tanácsadás</a>
+              <a href="#services-variant" id="it-consulting-link">IT tanácsadás</a>
             </div>
           </div>        
         </div> 
       </div> 
-        <div class="container">
+        <div class="container"  id="custom-software-development" style="display:block">
           <div class="row" id="services-variant">
             <div class="col-lg-6 text-left" style="padding:30px">
-              <div class="row" id="show-services">
+              <div class="row "  data-aos="fade-right" id="show-services">
                   <div class="span4">
-                      <img class="img-left" src="../../images/services-1.png"/>
-                      <p>IT projektek vezetését, menedzselését. A lor asdf o asdofk oasdkfop </p>
+                      <img class="img-left" src="../../images/services-icon12.png"/>
+                      <p>Egyedi alkalmazások fejlesztése az ügyfeleink elképzeléseihez és igényeihez igazodva. </p>
                     </div>
               </div>
-              <div class="row" id="show-services">
+              <div class="row" data-aos="fade-left" data-aos-offset="0" id="show-services">
                   <div class="span4">
-                      <img class="img-left" src="../../images/services-1.png"/>
-                  
-                      <p>Segítünk partnereinknek abban, hogy képesek legyenek reálisan felmérni az előttük álló feladatok nagyságá</p>
-
+                      <img class="img-left" src="../../images/services-icon2.png"/>                  
+                      <p>Megoldást kínálunk kis-, közép- vagy akár nagyvállalatok számára rendszereik egymáshoz illesztésére, integrálására, folyamataik automatizálására.</p>
                     </div>
               </div>
-              <div class="row" id="show-services">
+              <div class="row" data-aos="fade-right" data-aos-offset="0" id="show-services">
                   <div class="span4">
-                      <img class="img-left" src="../../images/services-1.png"/>
-            
-                      <p>megvalósításuk munkaigényét és elkészítési határidejét, valamint az üzemeltetéshez szükséges erőforrások nagyságát.</p>
-
+                      <img class="img-left" src="../../images/services-icon3.png"/>           
+                      <p>Testreszabott alkalmazások fejlesztésével segítjük az eredményesebb munkavégzést és átláthatóbb üzleti folyamatok kialakítását. </p>
                     </div>
               </div>
-
+              <div class="row" data-aos="fade-left" data-aos-offset="0" id="show-services">
+                <div class="span4">
+                    <img class="img-left" src="../../images/services-icon7.png"/>           
+                    <p>Automatizált megoldásokat fejlesztünk számos célterületen, legyen szó pénzügyről, irodai folyamatokról, ipari alkalmazásokról vagy akár kutatás-fejlesztési feladatokról.</p>
+                  </div>
+            </div>
             </div>
             <div class="col-lg-6 text-left service-left">
-              <h3>Feladatok kiszervezése</h3>
+              <h3>Egyedi szoftverfejlesztés</h3>
               <hr align="left" style="border-color:rgb(51, 147, 202);width: 70%;">
               <br />
-              <span>Szakértőink segítenek adat feldolgozó- és üzleti intelligencia rendszerek kiépítésében. Megtervezzük és megvalósítjuk a különféle forrásokból származó adatok összegyűjtését, rendezését, átalakítását és betöltését a megfelelő típusú adatkezelő rendszerekbe, és közérthető, világos jelentéseket készítünk a vállalati döntéshozók számára. Vállaljuk olyan architektúrák, folyamatok megtervezét és kialakítását, melyek lehetővé teszik, hogy
+              <span>Ha van egy jó ötlete, segítünk a megfelelő informatikai megoldás megtalálásában! Felkaroljuk a kisvállalkozások és startup cégek ötleteit, és együttműködünk elképzeléseik informatikai hátterének biztosításában. Segítünk felmérni és megfogalmazni informatikai problémáikat, teljes körű kivitelezést biztosítunk a specifikáció elkészítésétől a megvalósult szoftver átadásáig. Vállaljuk a felhasználók és üzemeltetők betanítását, illetve igény esetén magunk végezzük az elkészült rendszerek üzemeltetését és karbantartását.
 
-                  begyűjtsük a folyamatosan keletkező, nagy mennyiségű adatot különféle heterogén forrásokból;
-                  tisztítást és előfeldologozást végezzünk rajtuk, annak érdekében, hogy tömörebb, konzisztensebb formát nyerjenek;
-                  különféle transzformációk elvégzése után relációs, multidimenzionális, vagy a feladathoz legjobban illeszkedő adatbázisba töltsük az előfeldolgozott adatokat;
-                  az összegyűjtött adatokon statisztikai és adatbányászati elemzéseket végezzünk;
-                  majd végül táblázatokkal, grafikonokkal és speciális több dimenziós ábrázolási módokkal ellátott egyedi vagy rendszeres jelentéseket készítsünk belőlük.
-                  Az akadémiai hátterünknek köszönhetően egyedi, nagy bonyolultságú, kutatási tevékenységet is magában foglaló megoldásokat is készítünk az ügyfeleink számára. Nem habozunk használni a matematika vagy az algoritmuselmélet eszköztárát annak érdekében, hogy a futtatási környezethez és a megoldandó problémához megtaláljuk a minden szempontból optimálisan illeszkedő megoldásokat.
+                Cégünk szakértői komoly szoftverfejlesztési tapasztalattal rendelkeznek. A vállalati információs rendszerek, önálló desktop alkalmazások, backend és frontend rendszerek, webes és mobil alkalmazások fejlesztése során a legfrissebb technológiákat használjuk.
+            </div>
+          </div>
+        </div>
+        <div class="container"  id="startup-support"  style="display:none">
+          <div class="row" id="services-variant">
+            <div class="col-lg-6 text-left" style="padding:30px">
+              <div class="row "  data-aos="fade-right" id="show-services">
+                  <div class="span4">
+                      <img class="img-left" src="../../images/services-icon1.png"/>
+                      <p>Prototípusok megvalósításától kezdve komplett termékportfolió megtervezésén, megvalósítása</p>
+                    </div>
+              </div>
+              <div class="row" data-aos="fade-left" data-aos-offset="0" id="show-services">
+                  <div class="span4">
+                      <img class="img-left" src="../../images/services-icon4.png"/>                  
+                      <p>Tapasztalt IT csapatunk segít az ötletek kidolgozásában és megvalósításában, hogy piacképes és sikeres termék szülessen.</p>
+                    </div>
+              </div>             
+            </div>
+            <div class="col-lg-6 text-left service-left">
+              <h3>Startup vagy?</h3>
+              <hr align="left" style="border-color:rgb(51, 147, 202);width: 70%;">
+              <br />
+              <span>Hogy miért érdemes minket választani? Referenciáink bizonyítják, hogy szoftverfejlesztési szolgáltatásainkra építve startupok képesek világszinten is az élvonalba kerülni!
+            </div>
+          </div>
+        </div>
+        <div class="container"  id="outsourcing"  style="display:none">
+          <div class="row" id="services-variant">
+            <div class="col-lg-6 text-left" style="padding:30px">
+              <div class="row "  data-aos="fade-right" id="show-services">
+                  <div class="span4">
+                      <img class="img-left" src="../../images/services-icon8.png"/>
+                      <p>Prototípusok megvalósításától kezdve komplett termékportfolió megtervezésén, megvalósítása</p>
+                    </div>
+              </div>
+              <div class="row" data-aos="fade-left" data-aos-offset="0" id="show-services">
+                  <div class="span4">
+                      <img class="img-left" src="../../images/services-icon6.png"/>                  
+                      <p>Tapasztalt IT csapatunk segít az ötletek kidolgozásában és megvalósításában, hogy piacképes és sikeres termék szülessen.</p>
+                    </div>
+              </div>             
+            </div>
+            <div class="col-lg-6 text-left service-left" >
+              <h3>Kiszervezett Feladatkörök</h3>
+              <hr align="left" style="border-color:rgb(51, 147, 202);width: 70%;">
+              <br />
+              <span>Szakértőink segítenek adat feldolgozó- és üzleti intelligencia rendszerek kiépítésében. Megtervezzük és megvalósítjuk a különféle forrásokból származó adatok összegyűjtését, rendezését, átalakítását és betöltését a megfelelő típusú adatkezelő rendszerekbe, és közérthető, világos jelentéseket készítünk a vállalati döntéshozók számára.
+            </div>
+          </div>
+        </div>
+        <div class="container"  id="it-consulting" style="display:none">
+          <div class="row" id="services-variant">
+            <div class="col-lg-6 text-left" style="padding:30px">
+              <div class="row "  data-aos="fade-right" id="show-services">
+                  <div class="span4">
+                      <img class="img-left" src="../../images/services-icon8.png"/>
+                      <p>Vállaljuk IT projektek vezetését, menedzselését. </p>
+                    </div>
+              </div>
+              <div class="row" data-aos="fade-left" data-aos-offset="0" id="show-services">
+                  <div class="span4">
+                      <img class="img-left" src="../../images/services-icon6.png"/>                  
+                      <p>Segítünk partnereinknek abban, hogy képesek legyenek reálisan felmérni az előttük álló feladatok nagyságát, megvalósításuk munkaigényét és elkészítési határidejét.</p>
+                    </div>
+              </div>             
+            </div>
+            <div class="col-lg-6 text-left service-left">
+              <h3>IT Tanácsadás</h3>
+              <hr align="left" style="border-color:rgb(51, 147, 202);width: 70%;">
+              <br />
+              <span>Projektvezetőink folyamatosan figyelemmel követik a munkafolyamatokat, jól érthető jelentéseket készítenek a projekt haladásáról, figyelmeztetnek a kockázatokra és kezelik a menet közben felmerülő problémákat. Kollégáink nemcsak a saját csapatunk munkájának szervezését vállalják, hanem külső szakemberek munkájának koordinálásában, illetve a különféle fejlesztői csapatok összehangolásában is segítenek.
+
+                Szakértőink segítenek felmérni meglevő rendszereiket, javaslatot tesznek a legjobban illeszkedő megoldás, technológia kiválasztására. Speciális szakterületi tudást igénylő feladatokban partnereinknek tanácsadást nyújtunk.
             </div>
           </div>
         </div>
       </div>  
-    </section>
+    </sectio style="margin-bottom: 40px">
   
   <!-- Footer -->
   <footer class="page-footer font-small mdb-color pt-4">
@@ -202,7 +274,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="../js/creative.min.js"></script>
-
+  <script src="../js/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 
 </html>
