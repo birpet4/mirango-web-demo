@@ -10138,7 +10138,7 @@ footer a {
 }
 
 #service a {
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: large;
     text-transform: uppercase;
     font-style: bold;
@@ -10178,14 +10178,14 @@ footer a {
     left:0; 
     margin-top: 50px; 
     background-repeat: no-repeat;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e"); */
 }
 
 .MultiCarousel .rightLst { 
     right:0;
     margin-top: 50px;
     background-repeat: no-repeat;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233393ca' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233393ca' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e"); */
 
 }
 .rightLst:hover,
@@ -10241,7 +10241,7 @@ footer a {
 #about-header {
     background: url(../../images/ian-black-team-9-17.jpg);
     background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/ian-black-team-9-17.jpg);
-    height: 400px;
+    height: 800px;
     background-position: cover;
     background-attachment: fixed;
     background-position: center;
@@ -10252,7 +10252,7 @@ footer a {
 
 #portfolio-header {
     background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/business-presentation-abstract-background-with-partners-shaking-hands_nv_snfd5l__F0000.png);
-    height: 400px;
+    height: 800px;
     background-position: cover;
     background-attachment: fixed;
     background-position: center;
@@ -10338,7 +10338,7 @@ footer a {
 #service-header{
     background: url(../../images/budapest-at-night-1566316_960_720.jpg);
     background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/office_1.jpg);
-    height: 400px;
+    height: 800px;
     background-position: cover;
     background-attachment: fixed;
     background-position: center;
@@ -10379,8 +10379,8 @@ footer a {
   }
   
 /* The typewriter cursor effect */
-.skew {
-    /* transform: skew(-10deg);  */
+/* .skew {
+    transform: skew(-10deg); 
     background-color: #3393ca;
     color: white;    
     -webkit-transform: perspective(300px) rotateX(-30deg);
@@ -10391,4 +10391,57 @@ footer a {
     -o-transform-origin: 0% 50%;
     transform-origin: 0% 50%;
     padding-left: 10px;
-  }
+    position: absolute;
+  } */
+
+.skew {
+    background: #3393ca;
+    color: rgb(253, 253, 253);
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.skew:after {
+    padding-left: 10px;
+    position: absolute;
+    width: 0; 
+	height: 0; 
+    border-right: 20px solid transparent;
+	border-left: 0px solid transparent;
+	border-top: 27px solid #3393ca;
+    content: '';
+}
+
+#about-cards {
+    font-size: 1rem;
+    /* margin-bottom: 30px; */
+    /* height:300px; */
+    max-width: 270px;
+    margin-left: 0px;
+    /* width: 100px; */
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+#about-cards-icon {
+    /* font-size: 1rem; */
+    /* margin-bottom: 30px; */
+    /* height:300px; */
+    max-width: 270px;
+    /* margin-left:3px;
+    margin-right: 4px; */
+    /* width: 100px; */
+    padding-top: 10px;
+    background-color: #3393ca;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s ease;
+    border-radius: 5px 5px 0px 0px;
+
+}
