@@ -10105,7 +10105,7 @@ footer a {
     
 .service-left {
     color: white;
-    background-color: rgba(0, 0, 0, 0.835);
+    background-color: rgba(23, 134, 185, 0.835);
     background-size: cover;
     padding: 30px;
     height:max-content;
@@ -10205,7 +10205,7 @@ footer a {
 }
 
 #contact {
-    margin-top: 550px;
+    /* margin-top: 550px; */
 }
 
 #about-detailed {
@@ -10444,4 +10444,13 @@ footer a {
     transition: 0.3s ease;
     border-radius: 5px 5px 0px 0px;
 
+}
+
+#services-variant {
+    background: white;
+}
+
+#service-nav-header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)!important;
 }
