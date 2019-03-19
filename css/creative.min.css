@@ -10063,7 +10063,7 @@ footer a {
 }
 
 #services-detailed {
-    background-image: url(../../images/OFFICE-02.jpg);
+    /* background-image: url(../../images/OFFICE-02.jpg); */
     /* background-color: white; */
     background-position: center;
     background-size: cover;
@@ -10105,7 +10105,7 @@ footer a {
     
 .service-left {
     color: white;
-    background-color: rgba(23, 134, 185, 0.835);
+    background-color: rgb(51, 147, 202);
     background-size: cover;
     padding: 30px;
     height:max-content;
@@ -10451,8 +10451,8 @@ footer a {
 }
 
 #service-nav-header {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0)!important;
+    background-color: #343a40;
+    color: white;
 }
 
 .fixed-second-bar {
@@ -10460,5 +10460,10 @@ footer a {
     top: 72px;
     right: 0;
     left: 0;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 1030
+}
+
+.shadow {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
