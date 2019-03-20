@@ -10091,7 +10091,7 @@ footer a {
 }
 
 .bgimg-2 {
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/main/main-paralax_01.jpg);
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -10100,7 +10100,7 @@ footer a {
 }
 
 .bgimg-3 {
-    background-image: url(../img/123.jpg);
+    background-image: url(../img/main/main-paralax_01.jpg);
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -10259,8 +10259,7 @@ footer a {
 }
 
 #about-header {
-    /* background: url(../img/ian-black-team-9-17.jpg); */
-    background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../img/ian-black-team-9-17.jpg);
+    background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../img/about-us-header.jpg);
     height: 800px;
     background-position: cover;
     background-attachment: fixed;
@@ -10356,8 +10355,7 @@ footer a {
 }
 
 #service-header{
-    background: url(../../images/budapest-at-night-1566316_960_720.jpg);
-    background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/office_1.jpg);
+    background: linear-gradient(to bottom, rgba(58, 58, 58, 0.582) 0, rgba(3, 3, 3, 0.774) 100%), url(../img/service-header.jpg);
     height: 800px;
     background-position: cover;
     background-attachment: fixed;
