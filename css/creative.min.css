@@ -5770,6 +5770,7 @@ a.close.disabled {
     content: ""
 }
 
+
 .carousel-item {
     position: relative;
     display: none;
@@ -5779,10 +5780,19 @@ a.close.disabled {
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transition: -webkit-transform .6s ease-in-out;
-    transition: -webkit-transform .6s ease-in-out;
-    transition: transform .6s ease-in-out;
-    transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out
+    /* -webkit-transition: -webkit-transform .6s ease-in-out; */
+    /* transition: -webkit-transform .6s ease-in-out; */
+    /* transition: transform .6s ease-in-out; */
+    /* transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out; */
+
+    
+}
+
+.carousel-inner > .item {
+    -webkit-transition: 5s linear left;
+    -moz-transition: 5s linear left;
+    -o-transition: 5s linear left;
+    transition: 5s linear left;
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -9846,8 +9856,8 @@ hr.light {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.089)), to(rgba(92, 77, 66, .8))), url(../../images/bg2.jpg);
-    background: linear-gradient(to bottom, rgba(57, 57, 58, 0) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/bg2.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.089)), to(rgba(92, 77, 66, .8))), url(../img/index-main_background.jpg);
+    background: linear-gradient(to bottom, rgba(57, 57, 58, 0) 0, rgba(3, 3, 3, 0.774) 100%), url(../img/index-main_background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 105% 105%;
@@ -10081,7 +10091,7 @@ footer a {
 }
 
 .bgimg-2 {
-    background-image: url(../../images/bg.jpg);
+    background-image: url(../img/bg.jpg);
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -10090,7 +10100,7 @@ footer a {
 }
 
 .bgimg-3 {
-    background-image: url(../../images/123.jpg);
+    background-image: url(../img/123.jpg);
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -10249,8 +10259,8 @@ footer a {
 }
 
 #about-header {
-    background: url(../../images/ian-black-team-9-17.jpg);
-    background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../../images/ian-black-team-9-17.jpg);
+    /* background: url(../img/ian-black-team-9-17.jpg); */
+    background: linear-gradient(to bottom, rgba(57, 57, 58, 0.246) 0, rgba(3, 3, 3, 0.774) 100%), url(../img/ian-black-team-9-17.jpg);
     height: 800px;
     background-position: cover;
     background-attachment: fixed;
@@ -10279,7 +10289,7 @@ footer a {
 }
 
 #about-paralex-1 {
-    background-image: url(../../images/Business-Continuity-Office-Background-White.jpg);
+    background-image: url(../img/bg-masthead.jpg);
     min-height: 200px;
     background-attachment: fixed;
     background-position: center;
